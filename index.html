@@ -3,69 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Linguagens de Programação</title>
     </head>
 
-
-
-    <style>
-     * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        body {
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        img {
-            width: 100px;
-        }
-
-        table {
-            margin: 0 auto;
-            background-color: #bd95e2;
-            width: 100%; 
-            min-width: 1200px;
-           
-
-        }
-
-        td, th {
-            text-align: center;
-            vertical-align: middle; 
-            padding: 20px; 
-            border: 2px solid #483b93;
-
-        }   
-        
-        th{
-            background-color: #483b93;
-            color: white;
-            font-size: 20px;
-           
-        }
-
-        strong {
-            font-size: 22px;
-        }
-
-        p{
-            font-size: 20px;
-        }
-
-        
-    </style>
-        
     <body>
         <table>
             <tr>
                 <th>Linguagens</th>
                 <th>Tipagem</th>
                 <th>Organização</th>
+                <th>Paradigma</th>
+                <th>Nível</th>
+                <th>Máquina Virtual</th>
                 <th>Usabilidade</th>
                 <th>Vantagens</th>
                 <th>Desvantagens</th>
@@ -75,15 +25,21 @@
                 <td><img src="./img/js.png" alt="Linguagem JavaScript"><p><strong>JavaScript</strong></p></td>
                 <td> <p>Tipagem dinâmica (Pode ser inferida pela linguagem sem ser escrita de forma explicita o tipo de dado) e fraca (Conversões automáticas entre tipos diferentes de dados)</p> </td>
                 <td> <p>Programação estruturada</p></td>
+                <td> <p>Imperativa e Declarativa</p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem interpretada </p></td>
                 <td> <p>Muito usado para aplicações web</p></td>
                 <td> <p>Maior capacidade de suportar todos os navegadores modernos e produzir um resultado equivalente.</p></td>
-                <td><p>É vulnerável a brechas de segurança; Pode ser usada para executar programas maliciosos sem que o usuário saiba.</p></td>
-                <td><p>Ela é muito versátil podendo ser usada no back-end também. Além disso tem um grande número de recursos</p></td>
+                <td> <p>É vulnerável a brechas de segurança; Pode ser usada para executar programas maliciosos sem que o usuário saiba.</p></td>
+                <td> <p>Ela é muito versátil podendo ser usada no back-end também. Além disso tem um grande número de recursos</p></td>
             </tr>
             <tr>
                 <td><img src="./img/java.png" alt="Java"><p><strong>Java</strong></p></td>
                 <td> <p>Tipagem estática (existe um sistema de tipos bem definido e que é validado durante o tempo de compilação do código) e forte (Verificações de variáveis são rigorosas a execução do código)</p> </td>
                 <td> <p>Programação Orientada a Objeto</p></td>
+                <td> <p>Imperativa</p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem compilada e interpretada</p></td>
                 <td> <p>Criação de aplicações complexas e dinâmicas principalmente no meio empresarial </p></td>
                 <td> <p>Linguagem muito segura com alto desempenho</p></td>
                 <td> <p>É uma linguagem muito prolixa,maior complexidade e tempo para gerar códigos</p></td>
@@ -93,6 +49,9 @@
                 <td><img src="./img/php.png" alt="Linguagem PHP"><p><strong>PHP</strong></p></td>
                 <td> <p> Tipagem dinâmica (Pode ser inferida pela linguagem sem ser escrita de forma explicita o tipo de dado) e fraca (Conversões automáticas entre tipos diferentes de dados) </p> </td>
                 <td> <p>Originalmente foi criado para ser uma linguagem de programação estruturada, porém após a versão 5, o suporte à orientação a objetos foi implementada e passou a ser muito utilizada.</p></td>
+                <td> <p>Imperativa            </p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem interpretada </p></td>
                 <td> <p> Sistemas operacionais (Linux, Unix, Microsoft Windows, macOS e outros). Também tem suporte à maioria dos servidores web.</p></td>
                 <td> <p> É uma linguagem de código aberto, o que o torna mais flexível e personalizável e tem boa integração com banco de dados (ex.: MySQL)</p></td>
                 <td> <p> Não há uma padronização entre as suas versões, nem todos os comandos funcionam da mesma forma.</p></td>
@@ -102,6 +61,9 @@
                 <td><img src="./img/python.png" alt="Linguagem Python"><p><strong>Python</strong></p></td>
                 <td> <p> Tipagem dinâmica (Pode ser inferida pela linguagem sem ser escrita de forma explicita o tipo de dado) e forte (Verificações de variáveis são rigorosas a execução do código)</p> </td>
                 <td> <p>Programação orientada objeto</p></td>
+                <td> <p>Imperativa              </p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem interpretada </p></td>
                 <td> <p> Aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML)</p></td>
                 <td> <p> Linguagem simples e intuitiva, com uma sintaxe fácil de entender. Alta aplicabilidade</p></td>
                 <td> <p> Desempenho mais lento em comparação com outras linguagens para análise de dados.</p></td>
@@ -111,6 +73,9 @@
                 <td><img src="./img/c-sharp.png" alt="Linguagem C#"><p><strong>C#</strong></p></td>
                 <td> <p>Tipagem estática (existe um sistema de tipos bem definido e que é validado durante o tempo de compilação do código) e forte (Verificações de variáveis são rigorosas a execução do código)</p> </td>
                 <td> <p>Programação Orientada a objeto</p></td>
+                <td> <p>Imperativa e Declarativa</p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem compilada e interpretada </p></td>
                 <td> <p>Muito utilizada para jogos desenvolvidos para Windows e Xbox</p></td>
                 <td> <p>Possui integração com Windows. Possui código compilado em linguagem padrão, independentemente do Sistema Operacional e arquitetura de destino.</p></td>
                 <td> <p>Necessidade de compilar a cada vez que o código for alterado.</p></td>
@@ -120,6 +85,9 @@
                 <td><img src="./img/ruby.png" alt="Linguagem Ruby"><p><strong>Ruby</strong></p></td>
                 <td> <p>Tipagem dinãmica (Pode ser inferida pela linguagem sem ser escrita de forma explicita o tipo de dado) mas também oferece suporte a tipagem estática e forte.</p> </td>
                 <td> <p>Programação orientada a objetos</p></td>
+                <td> <p>Imperativa e Declarativa</p></td>
+                <td> <p>Linguagem de alto nível</p></td>
+                <td> <p>Linguagem interpretada </p></td>
                 <td> <p>Muito usado para aplicações web</p></td>
                 <td> <p>Linguagem de programação muito concisa, o que torna o desenvolvimento de software mais rápido e eficiente.</p></td>
                 <td> <p> Linguagem relativamente nova, o que significa que pode não ter a mesma disponibilidade de recursos que linguagens mais estabelecidas, como Java.</p></td>
